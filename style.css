@@ -28,9 +28,137 @@ header h1 {
 
   header nav ul li {
     display: inline;
+    
+  }
+  .a1{
+    border-bottom: 2px solid;
+    color: #6ed8cf;
+    justify-content: space-between;
+  }
+  .a2{
+    border-bottom: 2px solid;
+    color: #6ed8cf;
+    justify-content: space-between;
+  }
+  .a3{
+    border-bottom: 2px solid;
+    color: #6ed8cf;
+    justify-content: space-between;
+  }
+  .a4{
+    border-bottom: 2px solid;
+    color: #6ed8cf;
+    justify-content: space-between;
   }
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+  }
+
+  .subtitle {
+      background-image: url(https://cdn.shopify.com/s/files/1/0103/5639/2021/products/4_38a747af-7386-4107-bab4-ffcf447720d1_1024x1024.jpg?v=1576737874);
+      padding: 55px;
+  }
+
+  .subtitle h2{
+    color: #000000;
+    font-size: 35px;
+    text-align: right;
+    background-color: #6ed8cf;
+    background-repeat:no-repeat;
+    background-size: 300px 400px;
+  }
+
+  body{
+      background-color: rgb(235, 237, 241);
+  }
+  .aboutMe{
+      padding: 30px;
+      display: flex;
+  }
+   .aboutMe h1{
+       font-size: 60px;
+       float:left;
+       padding:20px;
+       border-right: 2px solid;
+       color:rgb(58, 66, 82);
+   }
+   .aboutMe p{
+       justify-content:space-around;
+       
+    
+   }
+
+   .work{
+       padding: 40px;
+       display: inline-flex;
+
+   }
+   .work h1{
+    font-size: 60px;
+    float:left;
+    padding:20px;
+    border-right: 2px solid;
+    color:rgb(58, 66, 82);
+   }
+
+   .contact{
+    padding: 10px;
+    display: flex;
+   }
+
+   .contact h1{
+    font-size: 60px;
+    justify-content: left;
+    padding:20px;
+    border-right: 2px solid;
+    color:rgb(58, 66, 82);
+    text-align: center;
+   }
+
+    footer nav ul li {
+    display: inline;
+    float:right;
+    
+  }
+  footer nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+  }
+  footer nav {
+    margin: 7px 0;
+  }
+
+  footer a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(58, 66, 82);
+    justify-content: space-evenly;
+  }
+
+  .b1{
+    border-bottom: 2px solid;
+    color: rgb(58, 66, 82);
+    justify-content: space-between;
+  }
+  .b2{
+    border-bottom: 2px solid;
+    color: rgb(58, 66, 82);
+    justify-content: space-between;
+  }
+  .b3{
+    border-bottom: 2px solid;
+    color: rgb(58, 66, 82);
+    justify-content: space-between;
+  }
+  .b4{
+    border-bottom: 2px solid;
+    color: rgb(58, 66, 82);
+    justify-content: space-between;
+  }
+  .b5{
+    border-bottom: 2px solid;
+    border-right: 30px;
+    color: rgb(58, 66, 82);
+    justify-content: space-between;
   }
